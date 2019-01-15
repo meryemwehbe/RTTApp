@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:2:1-31:12
+ADDED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:2:1-31:12
 MERGED from [androidx.appcompat:appcompat:1.0.0-alpha1] C:\Users\pc\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.0-alpha1.aar\2ed7a3ffeedc89ec6c2ba5fe8f93cd45\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] C:\Users\pc\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.2.aar\7f937edc7f7f80815b71633b8ac4dc7e\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.volley:volley:1.1.0] C:\Users\pc\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\f03d05d0b4c5ca90f3822ba19b7a2a21\AndroidManifest.xml:2:1-11:12
@@ -30,53 +30,53 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0-alpha1] C:\Users\pc\.gra
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0-alpha1] C:\Users\pc\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0-alpha1.aar\8318152b35473f1028e63e005ad5827c\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0-alpha1] C:\Users\pc\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0-alpha1.aar\457202a11c189d9b603c3d44bf95cfc4\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0-alpha1] C:\Users\pc\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0-alpha1.aar\cde17bd71cf6f2a198c25f4b2365403e\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:2:1-31:12
 	package
-		ADDED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:3:5-39
-		INJECTED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:2:1-31:12
-		INJECTED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:2:1-31:12
+		INJECTED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:2:1-31:12
-		INJECTED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:2:1-31:12
+		INJECTED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:5:5-75
+ADDED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:5:5-75
 	android:name
-		ADDED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:5:22-73
+		ADDED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:5:22-73
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:6:5-75
+ADDED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:6:5-75
 	android:name
-		ADDED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:6:22-73
+		ADDED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:6:22-73
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:7:5-80
+ADDED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:7:5-80
 	android:name
-		ADDED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:7:22-78
+		ADDED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:7:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:8:5-78
+ADDED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:8:5-78
 	android:name
-		ADDED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:8:22-76
+		ADDED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:8:22-76
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:9:5-66
+ADDED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:9:5-66
 	android:name
-		ADDED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:9:22-64
+		ADDED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:9:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:10:5-81
+ADDED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:10:5-81
 	android:name
-		ADDED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:10:22-78
+		ADDED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:10:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:11:5-80
+ADDED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:11:5-80
 	android:name
-		ADDED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:11:22-77
+		ADDED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:11:22-77
 application
-ADDED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:14:5-29:19
+ADDED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:14:5-29:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] C:\Users\pc\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.2.aar\7f937edc7f7f80815b71633b8ac4dc7e\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] C:\Users\pc\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.2.aar\7f937edc7f7f80815b71633b8ac4dc7e\AndroidManifest.xml:9:5-20
 MERGED from [com.android.volley:volley:1.1.0] C:\Users\pc\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\f03d05d0b4c5ca90f3822ba19b7a2a21\AndroidManifest.xml:9:5-20
@@ -86,37 +86,37 @@ MERGED from [androidx.core:core:1.0.0-alpha1] C:\Users\pc\.gradle\caches\transfo
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.0.0-alpha1] C:\Users\pc\.gradle\caches\transforms-1\files-1.1\core-1.0.0-alpha1.aar\a57eff57cc98e1f9f08e45920e0f7582\AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:19:9-35
+		ADDED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:19:9-35
 	android:label
-		ADDED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:17:9-41
+		ADDED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:17:9-41
 	android:roundIcon
-		ADDED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:18:9-54
+		ADDED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:18:9-54
 	android:icon
-		ADDED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:16:9-43
+		ADDED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:16:9-43
 	android:allowBackup
-		ADDED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:15:9-35
+		ADDED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:15:9-35
 	android:theme
-		ADDED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:21:9-40
+		ADDED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:21:9-40
 	android:usesCleartextTraffic
-		ADDED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:20:9-44
+		ADDED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:20:9-44
 activity#com.fit_iot.wild_minimal.WildMinimalActivity
-ADDED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:22:9-28:20
+ADDED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:22:9-28:20
 	android:name
-		ADDED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:22:19-54
+		ADDED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:22:19-54
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:23:13-27:29
+ADDED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:24:17-69
+ADDED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:24:25-66
+		ADDED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:26:17-77
+ADDED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml:26:27-74
+		ADDED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml:26:27-74
 uses-sdk
-INJECTED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml
 MERGED from [androidx.appcompat:appcompat:1.0.0-alpha1] C:\Users\pc\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.0-alpha1.aar\2ed7a3ffeedc89ec6c2ba5fe8f93cd45\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.0-alpha1] C:\Users\pc\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.0-alpha1.aar\2ed7a3ffeedc89ec6c2ba5fe8f93cd45\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] C:\Users\pc\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.2.aar\7f937edc7f7f80815b71633b8ac4dc7e\AndroidManifest.xml:5:5-7:41
@@ -169,13 +169,13 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0-alpha1] C:\Users\p
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0-alpha1] C:\Users\pc\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0-alpha1.aar\457202a11c189d9b603c3d44bf95cfc4\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0-alpha1] C:\Users\pc\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0-alpha1.aar\cde17bd71cf6f2a198c25f4b2365403e\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0-alpha1] C:\Users\pc\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0-alpha1.aar\cde17bd71cf6f2a198c25f4b2365403e\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\pc\Documents\EPFL\master thesis\Code\WILD-minimal\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pc\Documents\EPFL\master thesis\WILD-minimal\app\src\main\AndroidManifest.xml

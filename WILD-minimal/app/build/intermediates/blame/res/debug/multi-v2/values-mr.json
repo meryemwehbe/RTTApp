@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\pc\\Documents\\EPFL\\master thesis\\Code\\WILD-minimal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mr\\values-mr.xml",
+            "outputFile": "C:\\Users\\pc\\Documents\\EPFL\\master thesis\\WILD-minimal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mr\\values-mr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\pc\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.0-alpha1.aar\\a57eff57cc98e1f9f08e45920e0f7582\\res\\values-mr\\values-mr.xml",

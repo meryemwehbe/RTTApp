@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\pc\\Documents\\EPFL\\master thesis\\Code\\WILD-minimal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "C:\\Users\\pc\\Documents\\EPFL\\master thesis\\WILD-minimal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
                     "source": "C:\\Users\\pc\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.0.0-alpha1.aar\\2ed7a3ffeedc89ec6c2ba5fe8f93cd45\\res\\values-night-v8\\values-night-v8.xml",

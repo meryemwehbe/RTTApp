@@ -68,7 +68,10 @@ import java.io.FileWriter;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.sql.Timestamp;
+import java.util.AbstractList;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -100,7 +103,7 @@ public class WildMinimalActivity extends AppCompatActivity {
     String writestring = "";
     ArrayList<ScanResult> access_points;
     ArrayList<String> access_points_macs;
-    int n_aps = 4;
+    int n_aps = 8;
 
     String server_url = "http://192.168.1.175:8081/dbconfig.php";
     final String url = "http://192.168.1.175:8081/trilaterationWeb.py";
@@ -163,12 +166,17 @@ public class WildMinimalActivity extends AppCompatActivity {
         public void run() {
             if ((permission_is_granted) && (!wifi_scan_is_requested)) { // permission granted is a condition for scanning and scanning is done only once
                // wifi_scan_is_requested = true; // don't call again
-                txtview.setText("Scanning..."); // display what happens now
+                String text = "Scanning \n";
+                for (int i= 0; i < access_points_macs.size(); i++){
+                     text += access_points_macs.get(i) + "\n";
+                }
+                txtview.setText(text); // display what happens now
+
                 scan(); // to start WiFi scanning
             }
             if (wifi_scan_is_done) // indicates all initializtion done, execute repeatedly the below
                 range(); // do WiFi RTT ranging
-            repeat_handler.postDelayed(repeat, 1000); // call repeat->run again in 2 seconds
+            repeat_handler.postDelayed(repeat, 500); // call repeat->run again in 2 seconds
         }
 
     }
@@ -200,11 +208,17 @@ public class WildMinimalActivity extends AppCompatActivity {
                     }// ...add it to the list...
                 }
             }
+
             if(access_points.size() == n_aps)
             {
                 wifi_scan_is_done = true;
                 wifi_scan_is_requested = true;
             }// update state variable
+
+            /*
+            wifi_scan_is_done = true;
+            wifi_scan_is_requested = true;
+            */
         }
     }
 
@@ -216,9 +230,17 @@ public class WildMinimalActivity extends AppCompatActivity {
 
         builder = new RangingRequest.Builder();
 
+        /*
         for (int i = 0; i < wifi_aps.size(); i++) { // examine the APs from the WiFi scan...
             if (wifi_aps.get(i).is80211mcResponder()) { // ...if the AP is a responder...
                 builder.addAccessPoint(wifi_aps.get(i)); // ...add it to the list...
+                number_of_ftmrs++; // ...and indicate the list of responders is not empty
+            }
+        }*/
+
+        for (int i = 0; i < access_points.size(); i++) { // examine the APs from the WiFi scan...
+            if (access_points.get(i).is80211mcResponder()) { // ...if the AP is a responder...
+                builder.addAccessPoint(access_points.get(i)); // ...add it to the list...
                 number_of_ftmrs++; // ...and indicate the list of responders is not empty
             }
         }
@@ -320,10 +342,9 @@ public class WildMinimalActivity extends AppCompatActivity {
                     Params.put(macs.get(i).toString(), ranges.get(i).toString());
                     Params.put("r_" + macs.get(i).toString(), rssi.get(i).toString());
                 }
-                int time = (int) (System.currentTimeMillis());
-                Timestamp tsTemp = new Timestamp(time);
-                String ts =  tsTemp.toString();
-                Params.put("time",ts);
+
+                Date currentTime = Calendar.getInstance().getTime();
+                Params.put("time",currentTime.toString());
                 return Params;
 
             }
@@ -440,10 +461,10 @@ public class WildMinimalActivity extends AppCompatActivity {
                             String.format("%4d", results.get(i).getRssi()) + "dBm|" + // received signal strength indicator in dBm
                             "\n";
 
-                    writestring += results.get(i).getMacAddress().toString()+ '|' + String.format("%5.2f", results.get(i).getDistanceMm() / 1000.0) + "m|" + // obtained range - convert from mm to m and format
+                    /*writestring += results.get(i).getMacAddress().toString()+ '|' + String.format("%5.2f", results.get(i).getDistanceMm() / 1000.0) + "m|" + // obtained range - convert from mm to m and format
                             String.format("%5.2f", results.get(i).getDistanceStdDevMm() / 1000.0) + "m|" + // obtained standard deviation  - convert from mm to m and format
                             String.format("%4d", results.get(i).getRssi()) + "dBm|" + // received signal strength indicator in dBm
-                            "\n";
+                            "\n";*/
                     macs.add(results.get(i).getMacAddress().toString());
                     ranges.add(String.format("%5.2f", results.get(i).getDistanceMm() / 1000.0));
                     rssi.add(Integer.toString(results.get(i).getRssi()));
@@ -459,7 +480,7 @@ public class WildMinimalActivity extends AppCompatActivity {
 
             }
             //PreparetoSend(macs,ranges);
-            LargeSend(macs,ranges,rssi);
+            LargeSend(macs,ranges,rssi); //needed for the large scale experiment
             //httpactivity.startSendHttpRequestThread(url,macs,ranges,lat,lon);
             txtview.setText (s); // send string to display
 
